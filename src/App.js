@@ -177,7 +177,7 @@ const App = () => {
         <Route path="/products-filters" element={<ProductsFilters />} />
         <Route path="/products/:id" element={<Product />} />
         <Route path="/all-categories" element={<AllCategories />} />
-        <Route path="/success" element={<ThanksForOrdering />} />
+        <Route path="/thanks" element={<ThanksForOrdering />} />
         {/* review */}
         <Route
           path="/add-review/:id"
